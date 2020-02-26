@@ -1,0 +1,127 @@
+{
+  "annotations": {
+    "Nvgp1": {
+      "end": 1711,
+      "start": 112,
+      "strand": 1
+    },
+    "Nvgp2": {
+      "end": 2928,
+      "start": 2427,
+      "strand": 1
+    },
+    "Nvgp3": {
+      "end": 6166,
+      "start": 5107,
+      "strand": 1
+    },
+    "Nvgp4": {
+      "end": 8294,
+      "start": 6653,
+      "strand": 1
+    },
+    "Nvgp5": {
+      "end": 10751,
+      "start": 8942,
+      "strand": 1
+    },
+    "Nvgp6": {
+      "end": 18146,
+      "start": 11411,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 18246,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "color_map": [
+        [
+          "India",
+          "#F333FF"
+        ],
+        [
+          "Bangladesh",
+          "#FF33A5"
+        ],
+        [
+          "Cambodia",
+          "#FF333F"
+        ],
+        [
+          "Malaysia",
+          "#FFF333"
+        ],
+        [
+          "Thailand",
+          "#A5FF33"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "state": {
+      "key": "state",
+      "legendTitle": "State",
+      "menuItem": "state",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "state",
+    "geoResolution": "state",
+    "mapTriplicate": false
+  },
+  "filters": [
+    "country",
+    "state"
+  ],
+  "geo": {
+    "country": {
+      "Bangladesh": {
+        "latitude": 23.685,
+        "longitude": 90.3563
+      },
+      "Cambodia": {
+        "latitude": 12.5657,
+        "longitude": 104.991
+      },
+      "India": {
+        "latitude": 20.5937,
+        "longitude": 78.9629
+      },
+      "Malaysia": {
+        "latitude": 4.2105,
+        "longitude": 101.9758
+      },
+      "Thailand": {
+        "latitude": 15.87,
+        "longitude": 100.9925
+      }
+    }
+  },
+  "maintainer": [
+    "Claire",
+    "github.com"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Nipah_Virus",
+  "updated": "25 Feb 2020",
+  "virus_count": 31
+}
